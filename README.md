@@ -59,3 +59,6 @@ Remove um contêiner.
 - `docker container prune`
 
 Remove todos os contêineres parados.
+
+
+             By Memorise o código
