@@ -31,3 +31,31 @@ Remove uma imagem local.
 - `docker image prune`
 
 Remove todas as imagens não utilizadas.
+### Gerenciamento de Contêineres
+- `docker container ls`
+
+Lista todos os contêineres em execução.
+
+- `docker container ps -a`
+
+Lista todos os contêineres (em execução e parados).
+
+- `docker container run <nome_da_imagem>`
+
+Cria e inicia um novo contêiner a partir de uma imagem.
+
+- `docker container start <ID_do_contêiner>`
+
+ Inicia um contêiner específico.
+
+ - `docker container stop <ID_do_contêiner>`
+
+ Para a execução de um contêiner em execução.
+
+ - `docker container rm <ID_do_contêiner>`
+
+Remove um contêiner.
+
+- `docker container prune`
+
+Remove todos os contêineres parados.
