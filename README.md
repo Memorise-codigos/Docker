@@ -11,4 +11,22 @@ O Docker é uma plataforma que permite a criação, implantação e execução d
 - Registro: Um local onde as imagens do Docker são armazenadas. O Docker Hub é o registro público padrão, mas você também pode usar registros privados.
 
 # Instalação do Docker
-O Docker pode ser instalado em várias plataformas, como Linux, Windows e macOS. Visite o site oficial do Docker para obter instruções detalhadas sobre a instalação para o seu sistema operacional específico.
+O Docker pode ser instalado em várias plataformas, como Linux, Windows e macOS. [Visite o site oficial do Docker](https://www.docker.com/get-started) para obter instruções detalhadas sobre a instalação para o seu sistema operacional específico.
+
+# Comandos Essenciais do Docker
+### Gerenciamento de Imagens
+- `docker image ls`
+
+Lista todas as imagens disponíveis no sistema.
+
+- `docker image pull <nome_da_imagem>:<tag>`
+
+Baixa uma imagem do registro.
+
+- `docker image rm <nome_da_imagem>`
+
+Remove uma imagem local.
+
+- `docker image prune`
+
+Remove todas as imagens não utilizadas.
